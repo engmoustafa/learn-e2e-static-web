@@ -2,6 +2,7 @@ version: 0.2
 env:
     variables:
         CACHE_CONTROL: "86400"
+        # S3_BUCKET is passed as environment variable
         #S3_BUCKET: {-INSERT BUCKET NAME FOR STATIC WEBSITE HERE-}
         BUILD_FOLDER: "dist"
         BUILD_ENV: "prod"
